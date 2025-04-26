@@ -1,6 +1,5 @@
 package com.example.hospital_vm.model;
 
-import jakarta.annotation.Generated;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,10 +25,10 @@ public class Paciente {
     private String run;
 
     @Column(nullable = false)
-    private String nombre;
+    private String nombres;
 
     @Column(nullable = false)
-    private String apellido;
+    private String apellidos;
 
     @Column(nullable = true)
     private String fechaNacimiento;
